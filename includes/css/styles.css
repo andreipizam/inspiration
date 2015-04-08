@@ -1,0 +1,263 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Andrei Pizza
+Updated: March 2015
+Notes:	Portfolio
+
+*/
+
+
+/* --------------------------------------
+   titles
+   -------------------------------------- */
+   h1{
+      font-size: 5em;
+      font-family: 'Roboto Slab', serif;
+      font-weight: lighter;
+   }
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   .container {
+
+        max-width: 100%;
+   }
+
+
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+   strong {
+
+   font-weight: 400;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+   .navbar {
+
+      background-color: #6e6e70;
+      border-radius: 0px;
+      height: 100px;
+      width: 100%;
+      position: fixed;
+      z-index: 20;
+      background-color: transparent;
+
+   }
+
+   #trigger-overlay {
+
+      position: absolute;
+      right: 95px;
+      top: 0;
+      border-radius: 0px;
+      width: 100px;
+      background-color: transparent;
+      height: 100px;
+      border: none;
+
+
+   }
+
+   .patty {
+
+      background-color: #ffffff;
+      width: 30px;
+      height: 4px;
+      text-align: center;
+      position: relative;
+      margin-left: 30px;
+      z-index: 20;
+   }
+
+   .patty:before {
+
+      content: '';
+      width: 30px;
+      height: 4px;
+      background-color: #ffffff;
+      position: absolute;
+      display: block;
+      top:-9px;
+   }
+   .patty:after {
+
+      content: '';
+      width: 30px;
+      height: 4px;
+      background-color: #ffffff;
+      position: absolute;
+      display: block;
+      bottom:-9px;
+   }
+
+   .overlay {
+
+      z-index: 20;
+      background:#ffffff;
+
+
+   }
+
+   .overlay ul li a {
+
+      color: #f4475d;
+   }
+
+.container-fluid {
+
+   margin-top: 1.3%;
+   margin-left: 1%;
+}
+
+button .overlay-close {
+
+   right: 100px;
+}
+
+
+
+   
+
+   
+   
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+
+
+.principal-icon {
+   font-size: 300px;
+   padding: 0px;
+   line-height:0.1;
+
+}
+.carousel-caption {
+
+   text-align: center;
+   top: 150px;
+   
+}
+
+/* #gradient 
+{
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+}
+*/ 
+.carousel-indicators {
+
+   bottom:0px;
+   margin-bottom: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+	
+}
+
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+	
+}
+
+/* Large desktop */
+@media (min-width: 1300px) {
+
+
+/* --------------------------------------
+   titles
+   -------------------------------------- */
+
+
+   /* --------------------------------------
+   Navbar @media 
+   -------------------------------------- */
+
+
+
+	
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+   .carousel-inner {
+
+      height:960px;
+   }
+
+   .carousel-control {
+   
+   height: 960px;
+   }
+
+   #carousel-example-generic {
+
+   height: 0px;
+   }
+
+   .carousel-indicators{
+
+   top: 0px; 
+   margin-top: 750px;
+   }
+
+   .carousel-control.right {
+
+
+   }
+
+}
+/* Big desktop*/
+@media (min-width: 1920px) {
+   
+   /* #gradient {
+  width: 100%;
+  padding: 0px;
+  margin: 0px;
+} */
+
+.carousel-inner {
+
+      height:960px;
+   }
+
+.carousel-control {
+   
+   height: 960px;
+}
+
+
+
+}
